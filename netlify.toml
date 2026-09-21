@@ -1,0 +1,6 @@
+# Dit a Netlify de publier la racine du depot, sans etape de construction.
+# Sans ce fichier, Netlify peut chercher un dossier "dist" ou "public"
+# qui n'existe pas — et toutes les pages repondent alors 404.
+[build]
+  publish = "."
+  command = ""
